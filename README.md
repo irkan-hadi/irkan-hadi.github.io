@@ -1,2 +1,1 @@
-# irkan.cv
-Irkan Hadi's CV
+# Irkan Hadi's CV
