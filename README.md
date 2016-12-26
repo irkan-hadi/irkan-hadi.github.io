@@ -1,1 +1,0 @@
-# Irkan Hadi's CV
