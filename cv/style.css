@@ -46,7 +46,7 @@ p {
 }
 
 #name h2 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-family: 'Avant Garde', Helvetica, Arial, sans-serif;
 
 }
@@ -181,9 +181,10 @@ section:last-child {
 
 .keySkills {
 	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count:4;
+	columns:4;
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #000;
@@ -193,6 +194,10 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
+.bullet_point
+{
+	color:#00a0e0;
+}
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
 		display: none;
@@ -202,6 +207,7 @@ section:last-child {
 	-moz-column-count:2;
 	-webkit-column-count:2;
 	column-count:2;
+	
 	}
 }
 
@@ -225,17 +231,20 @@ section:last-child {
 	.sectionTitle, .sectionContent {
 		float: none;
 		width: 100%;
+
 	}
 	
 	.sectionTitle {
 		margin-left: 0px;
-		font-size: 1.25em;
+		font-size: 1.1em;
+		text-align:left;
 	}
 	
 	.keySkills {
-		-moz-column-count:2;
-		-webkit-column-count:2;
-		column-count:2;
+		-moz-column-count:4;
+		-webkit-column-count:4;
+		column-count:4;
+		columns:4;
 	}
 }
 
@@ -270,6 +279,7 @@ section:last-child {
         width: 100%;
 		margin: 2mm 2mm 2mm 2mm;
     }
+
 	 .break-page { page-break-after:always; }
 }
 
