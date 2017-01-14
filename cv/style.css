@@ -241,17 +241,22 @@ sup {
 	line-height:1.5em;
 }
 
+* {
+    -webkit-text-size-adjust: none;
+}
+
+
 @media all and (max-width: 805px) {
 	
 	body{
 		font-size:11px;
 		margin: 0.5mm 0.5mm 0.5mm 0.5mm;
 	}
-	
 	p{
 		font-size:11px;
 		
 	}
+
 	#cv {
 		width: 100%;
 		margin: 1px auto;
