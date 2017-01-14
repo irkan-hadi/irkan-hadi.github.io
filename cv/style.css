@@ -254,6 +254,7 @@ sup {
 	body{
 		font-size:11px;
 		margin: 0.5mm 0.5mm 0.5mm 0.5mm;
+		max-height: 999999px;
 	}
 	p{
 		font-size:11px;
