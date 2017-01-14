@@ -228,6 +228,19 @@ sup {
 	line-height:1.5em;
 }
 
+.keySkills_Col_1
+{
+	list-style-type: none;
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	columns:1;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #000;
+	line-height:1.5em;
+}
+
 @media all and (max-width: 601px) {
 	#cv {
 		width: 95%;
