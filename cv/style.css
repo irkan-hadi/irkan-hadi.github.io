@@ -250,16 +250,16 @@ sup {
 }
 
 
-@media all and (max-width: 805px) {
+@media all and (max-width: 512px) {
 	
 	body{
-		font-size:11px;
-		margin: 0.5mm 0.5mm 0.5mm 0.5mm;
-		max-height: 999999px;
+		font-size:12px;
+		margin: 1mm 1mm 1mm 1mm;
+	
 	}
 	p{
-		font-size:11px;
-		max-height: 999999px;
+		font-size:12px;
+		
 		
 	}
 
@@ -309,6 +309,123 @@ sup {
 	}
 }
 
+
+@media all and (min-width: 513px) and (max-width: 700px)  {
+	
+	body{
+		font-size:14px;
+		margin: 1mm 1mm 1mm 1mm;
+
+	}
+	p{
+		font-size:14px;
+	
+		
+	}
+
+	#cv {
+		width: 100%;
+		margin: 1px auto;
+		min-width: 280px;
+	}
+	
+		#mainArea {
+	padding: 0 10px;
+}
+	#name h1 {
+	font-size: 3em!important;
+	font-weight: 700;
+	font-family: 'Avant Garde', Helvetica, Arial, sans-serif;
+	
+	}
+	#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+
+	}
+	
+	.sectionTitle {
+		margin-left: 0px;
+		font-size: 1.1em!important;
+		text-align:left;
+		border-bottom: 1px solid #00a0e0;
+	}
+	
+	.keySkills {
+		-moz-column-count:4;
+		-webkit-column-count:4;
+		column-count:4;
+		columns:4;
+	}
+}
+
+@media all and (min-width: 701px) and (max-width: 800px)  {
+	
+	body{
+		font-size:15px;
+		margin: 1mm 1mm 1mm 1mm;
+	}
+	p{
+		font-size:15px;
+
+		
+	}
+
+	#cv {
+		width: 100%;
+		margin: 1px auto;
+		min-width: 280px;
+	}
+	
+		#mainArea {
+	padding: 0 10px;
+}
+	#name h1 {
+	font-size: 3em!important;
+	font-weight: 700;
+	font-family: 'Avant Garde', Helvetica, Arial, sans-serif;
+	
+	}
+	#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+
+	}
+	
+	.sectionTitle {
+		margin-left: 0px;
+		font-size: 1.1em!important;
+		text-align:left;
+		border-bottom: 1px solid #00a0e0;
+	}
+	
+	.keySkills {
+		-moz-column-count:4;
+		-webkit-column-count:4;
+		column-count:4;
+		columns:4;
+	}
+}
 @media print {
     #cv {
         width: 100%;
