@@ -241,13 +241,29 @@ sup {
 	line-height:1.5em;
 }
 
-@media all and (max-width: 401px) {
+@media all and (max-width: 805px) {
+	
+	body{
+		font-size:11px;
+		margin: 0.5mm 0.5mm 0.5mm 0.5mm;
+	}
+	
+
 	#cv {
-		width: 95%;
-		margin: 5px auto;
+		width: 100%;
+		margin: 1px auto;
 		min-width: 280px;
 	}
 	
+		#mainArea {
+	padding: 0 10px;
+}
+	#name h1 {
+	font-size: 3em!important;
+	font-weight: 700;
+	font-family: 'Avant Garde', Helvetica, Arial, sans-serif;
+	
+	}
 	#headshot {
 		display: none;
 	}
@@ -266,7 +282,7 @@ sup {
 	
 	.sectionTitle {
 		margin-left: 0px;
-		font-size: 1.1em;
+		font-size: 1.1em!important;
 		text-align:left;
 		border-bottom: 1px solid #00a0e0;
 	}
