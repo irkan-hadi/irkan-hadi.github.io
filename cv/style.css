@@ -241,7 +241,7 @@ sup {
 	line-height:1.5em;
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: 401px) {
 	#cv {
 		width: 95%;
 		margin: 5px auto;
