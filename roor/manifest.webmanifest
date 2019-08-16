@@ -4,7 +4,7 @@
   "theme_color": "#00f0ff",
   "background_color": "#808080",
   "display": "standalone",
-  "scope": "/roor/",
+  "scope": "/roor/*",
   "start_url": "/roor/index.html",
   "orientation": "portrait",
   "icons": [
