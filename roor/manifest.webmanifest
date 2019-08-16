@@ -5,7 +5,7 @@
   "background_color": "#808080",
   "display": "standalone",
   "scope": "/roor/",
-  "start_url": "/index.html",
+  "start_url": "/roor/index.html",
   "orientation": "portrait",
   "icons": [
     {
